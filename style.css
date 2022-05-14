@@ -1,0 +1,14 @@
+body {
+    font-family: monospace;
+}
+
+.rose img{
+    width: auto;
+    height: 300px;
+}
+
+.middle img {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+}
