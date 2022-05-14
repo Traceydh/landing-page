@@ -3,12 +3,27 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     background-color: black;
+    font-size: 15px;
 }
 
 .secondsection img {
     width: 200px; /* width of container */
     height: 200px; /* height of container */
     object-fit: cover;
+}
+
+button {
+    background-color: #3882F6;
+    color: antiquewhite;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 /* first section of webpage */
@@ -48,7 +63,7 @@ ul {
 .firstsectioncontent {
     display: flex;
     align-items: center;
-    gap:100px;
+    gap:200px;
     justify-content: space-between;
 }
 
@@ -56,3 +71,4 @@ ul {
     font-size: 30px;
     font-weight: bold; 
 }
+
