@@ -1,18 +1,23 @@
 body {
     font-family: monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
 }
 
-.rose img{
-    width: auto;
-    height: 300px;
-}
-
-.middle img {
+.secondsection img {
     width: 200px; /* width of container */
     height: 200px; /* height of container */
     object-fit: cover;
 }
 
+/* first section of webpage */
+/* re-sizing image */
+.rose img{
+    width: auto;
+    height: 200px;
+}
+/* get rid of dots in list */
 ul {
     list-style: none;
     display: flex;
@@ -22,4 +27,32 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.firstsection {
+    background-color: #1F2937;
+    color:antiquewhite; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.firstsectioncontent {
+    display: flex;
+    align-items: center;
+    gap:100px;
+    justify-content: space-between;
+}
+
+.welcome {
+    font-size: 30px;
+    font-weight: bold; 
 }
