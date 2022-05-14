@@ -12,3 +12,14 @@ body {
     height: 200px; /* height of container */
     object-fit: cover;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
