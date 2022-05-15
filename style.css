@@ -157,3 +157,13 @@ ul {
     font-weight: bold;
     font-size: 18px;;
 }
+
+/*Footer section*/
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 15px;
+    font-size: 10px;
+}
