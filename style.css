@@ -41,8 +41,9 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .bold {
@@ -62,9 +63,9 @@ ul {
 
 .firstsectioncontent {
     display: flex;
+    gap:100px;
+    justify-content: center;
     align-items: center;
-    gap:200px;
-    justify-content: space-between;
 }
 
 .welcome {
@@ -75,6 +76,7 @@ ul {
 .text{
     margin-top: 10px;
     margin-bottom: 10px;
+    max-width: 400px;
 }
 
 /* second section of webpage */
@@ -106,4 +108,16 @@ ul {
     font-size: 36px;
     font-weight: bold;
     flex:auto;
+}
+
+/* third section of webpage */
+
+.thirdsection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthsection {
+    background-color: #3882F6;
 }
