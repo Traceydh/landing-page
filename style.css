@@ -107,11 +107,19 @@ ul {
 }
 
 /* third section of webpage */
-
 .thirdsection {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.speaker{
+
 }
 
 .fourthsection {
