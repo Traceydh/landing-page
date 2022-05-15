@@ -92,9 +92,10 @@ ul {
 .images {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 
 }
+
 /*Align text with images */
 .info {
     text-align: center;
@@ -129,6 +130,24 @@ ul {
 
 }
 
+/* Fourth section of webpage */
 .fourthsection {
     background-color: #3882F6;
+    margin: 80px;
+    padding: 30px;
+    border-radius: 25px;
+    color: antiquewhite;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthsection button {
+    border-color: antiquewhite;
 }
