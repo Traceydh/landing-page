@@ -91,6 +91,7 @@ ul {
 /* Figure out how to resize images as page gets smaller */
 .images {
     display: flex;
+    justify-content: center;
     gap: 20px;
 
 }
