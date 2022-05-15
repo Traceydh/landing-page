@@ -49,7 +49,7 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -129,9 +129,8 @@ ul {
     font-style: italic;
     max-width: 600px;
 }
-
+/*Align quote better */
 .speaker{
-
 }
 
 /* Fourth section of webpage */
@@ -139,8 +138,11 @@ ul {
     background-color: #3882F6;
     margin-top: 60px;
     margin-bottom: 60px;
+
+    /*Center text box*/
     margin-left: auto;
     margin-right: auto;
+
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 25px;
