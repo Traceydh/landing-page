@@ -129,8 +129,9 @@ ul {
     font-style: italic;
     max-width: 600px;
 }
-/*Align quote better */
+/*Align quote with a better method */
 .speaker{
+    padding-left: 400px;
 }
 
 /* Fourth section of webpage */
