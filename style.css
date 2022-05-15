@@ -1,15 +1,7 @@
 body {
     font-family: monospace;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: black;
     font-size: 15px;
-}
-
-.secondsection img {
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
-    object-fit: cover;
+    margin: 0px;
 }
 
 button {
@@ -39,13 +31,6 @@ ul {
     gap: 20px;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-
 .bold {
     font-weight: bold;
     font-size: 20px;
@@ -61,10 +46,15 @@ ul {
     padding-right: 50px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .firstsectioncontent {
     display: flex;
-    gap:100px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -80,6 +70,12 @@ ul {
 }
 
 /* second section of webpage */
+/*Resize Images to be same size */
+.secondsection img {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+}
 
 .secondsection {
     display: flex;
@@ -95,9 +91,8 @@ ul {
 /* Figure out how to resize images as page gets smaller */
 .images {
     display: flex;
-    justify-content: center;
     gap: 20px;
-    flex:auto;
+
 }
 /*Align text with images */
 .info {
