@@ -23,6 +23,7 @@ button {
 .rose img{
     width: auto;
     height: 200px;
+    border-radius: 10px;
 }
 /* get rid of dots in list */
 ul {
@@ -88,12 +89,15 @@ ul {
     padding: 30px
 
 }
-/* Figure out how to resize images as page gets smaller */
+
 .images {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
 
+.images img {
+    border-radius: 10px;
 }
 
 /*Align text with images */
