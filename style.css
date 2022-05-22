@@ -20,7 +20,6 @@ button {
 .rose img{
     width: auto;
     height: 200px;
-    border-radius: 10px;
 }
 /* get rid of dots in list */
 ul {
@@ -31,7 +30,6 @@ ul {
 
 .bold {
     font-weight: bold;
-    font-size: 20px;
 }
 
 .firstsection {
@@ -90,7 +88,7 @@ ul {
     gap: 40px;
 }
 
-.images img {
+img {
     border-radius: 10px;
 }
 
@@ -99,10 +97,8 @@ ul {
     text-align: center;
     max-width: 200px;
 }
-.boldsecond {
+h2 {
     font-size: 36px;
-    font-weight: bold;
-    flex:auto;
 }
 
 /* third section of webpage */
@@ -155,9 +151,8 @@ ul {
     border-color: antiquewhite;
 }
 
-.follow {
-    font-weight: bold;
-    font-size: 18px;;
+h3 {
+    margin: -20px 0 -10px 0; 
 }
 
 /*Footer section*/
