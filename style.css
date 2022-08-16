@@ -3,6 +3,21 @@ body {
     box-sizing: border-box;
 }
 
+/*IMAGES*/
+img {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    border-radius: 1rem;
+
+}
+.rose img{
+    width: auto;
+}
+
+.secondsection img {
+    object-fit: cover;
+}
+
 /* first section of webpage */
 
 .header {
@@ -51,17 +66,86 @@ button {
     align-items: center;
 }
 
-/*IMAGES*/
-img {
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
-    border-radius: 1rem;
-
+/* second section of webpage */
+.secondsection {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.rose img{
-    width: auto;
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.secondsection img {
-    object-fit: cover;
+.combo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* third section of webpage */
+.thirdsection {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem; 
+    gap: 0.rem;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 600px;
+}
+
+/*Fourth section*/
+
+.fourthsection {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthsection button {
+    border-color: antiquewhite;
+}
+
+.vertical {
+    background-color: #3882F6;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+/*Footer section*/
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 1rem;
+    font-size: 0.75rem;
 }
