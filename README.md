@@ -8,3 +8,6 @@ By fiddling and experimenting with flexbox to create this landing page, I now ha
 - break up page into manageable sections 
 - google is my best friend when encountering new syntax 
 
+
+Check it out [here](https://traceydh.github.io/landing-page/)
+
