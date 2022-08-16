@@ -66,6 +66,14 @@ button {
     align-items: center;
 }
 
+.firstsectioncontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 /* second section of webpage */
 .secondsection {
     background-color: white;
@@ -84,7 +92,7 @@ button {
 }
 
 .combo {
-    width: 90%;
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,4 +156,23 @@ button {
     color: antiquewhite;
     padding: 1rem;
     font-size: 0.75rem;
+}
+
+@media all and (min-width: 480px) {
+    .header {
+        flex-direction: row;
+    }
+
+    .firstsectioncontent {
+        flex-direction: row;
+    }
+
+    .words {
+        gap: 20%;
+    }
+
+    .images {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
