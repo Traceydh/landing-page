@@ -2,6 +2,7 @@ body {
     font-family: monospace;
     font-size: 15px;
     margin: 0px;
+    
 }
 
 button {
@@ -32,8 +33,12 @@ ul {
     font-weight: bold;
 }
 
-.firstsection {
+header {
     background-color: #1F2937;
+    width: 100%;
+}
+
+.firstsection {
     color:antiquewhite; 
     display: flex;
     flex-direction: column;
@@ -50,6 +55,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 1rem;
 }
 
 .welcome {
@@ -60,6 +66,15 @@ ul {
 .text{
     margin: 10px 0;
     max-width: 400px;
+}
+
+@media all and (max-width: 480px) {
+    .firstsectioncontent {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+    }
 }
 
 /* second section of webpage */
@@ -149,10 +164,6 @@ h2 {
 
 .fourthsection button {
     border-color: antiquewhite;
-}
-
-h3 {
-    margin: -20px 0 -10px 0; 
 }
 
 /*Footer section*/
