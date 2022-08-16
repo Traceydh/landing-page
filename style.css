@@ -1,177 +1,25 @@
 body {
     font-family: monospace;
-    font-size: 15px;
-    margin: 0px;
-    
-}
-
-button {
-    background-color: #3882F6;
-    color: antiquewhite;
-    border-radius: 4px;
-    border-style: solid;
-    border-color: #3882F6;
-    font-weight: bold;
-    padding: 5px 15px;
-
-}
-
-/* first section of webpage */
-/* re-sizing image */
-.rose img{
-    width: auto;
-    height: 200px;
-}
-/* get rid of dots in list */
-ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-header {
-    background-color: #1F2937;
-    width: 100%;
-}
-
-.firstsection {
-    color:antiquewhite; 
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px 60px 50px;
+    box-sizing: border-box;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.firstsectioncontent {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
+section {
+    background-color: #1F2937;
+    color:antiquewhite; 
+    padding: 1rem;
 }
 
-.welcome {
-    font-size: 48px;
-    font-weight: bold; 
+.rose img{
+    width: auto;
+    height: 200px;
 }
 
-.text{
-    margin: 10px 0;
-    max-width: 400px;
-}
-
-@media all and (max-width: 480px) {
-    .firstsectioncontent {
-        flex-direction: column;
-    }
-    .header {
-        flex-direction: column;
-    }
-}
-
-/* second section of webpage */
-/*Resize Images to be same size */
 .secondsection img {
     width: 200px; /* width of container */
     height: 200px; /* height of container */
     object-fit: cover;
-}
-
-.secondsection {
-    display: flex;
-    flex-direction: column;
-    color:rgb(0, 0, 0); 
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 30px
-
-}
-
-.images {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-img {
-    border-radius: 10px;
-}
-
-/*Align text with images */
-.info {
-    text-align: center;
-    max-width: 200px;
-}
-h2 {
-    font-size: 36px;
-}
-
-/* third section of webpage */
-.thirdsection {
-    background-color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0; 
-    gap: 10px;
-    
-}
-
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    max-width: 600px;
-}
-/*Align quote with a better method */
-.speaker{
-    padding-left: 400px;
-}
-
-/* Fourth section of webpage */
-.fourthsection {
-    background-color: #3882F6;
-    margin: 60px 0;
-
-    /*Center text box*/
-    margin-left: auto;
-    margin-right: auto;
-
-    padding: 30px 0;
-    border-radius: 25px;
-    color: antiquewhite;
-    max-width: 600px;
-
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.vertical {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.fourthsection button {
-    border-color: antiquewhite;
-}
-
-/*Footer section*/
-.footer {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    color: antiquewhite;
-    padding: 15px;
-    font-size: 10px;
 }
